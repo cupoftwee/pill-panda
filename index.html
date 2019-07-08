@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pill Panda, your friendly &amp; reliable companion</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+    <link rel="stylesheet" href="/src/style.css">
+    
+    <meta name="description" content="Pill Panda">
+    <meta name="msapplication-TileColor" content="#673ab8">
+    <meta name="msapplication-TileImage" content="./assets/icons/mstile-150x150.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="pill-panda">
+    <meta name="application-name" content="pill-panda">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#673ab8">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/assets/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/icons/favicon-16x16.png" sizes="16x16">
+    
+    <link rel="manifest" href="./manifest.json">
+  </head>
+  <body>
+    
+    <div id="app"></div>
+    
+    <ul style="display: none;">
+      <li>
+        Homepage
+        <ul>
+          <li>Time & Day</li>
+          <li>Calming message</li>
+          <li>Upcoming Reminders</li>
+          <li></li>
+        </ul>
+      </li>
+      
+      <li>
+        Secured Journal
+        <ul>
+          <li>Auth</li>
+          <li>
+            Today's Entry
+            <ul>
+              <li>Medication checklist</li>
+              <li>Self-care checklist</li>
+              <li>Logs WYSIWYG editor</li>
+            </ul>
+          </li>
+          <li>Journal history</li>
+        </ul>
+      </li>
+      
+      <li>
+        Settings
+        <ul></ul>
+      </li>
+    </ul>
+    
+    <!-- import the webpage's javascript file -->
+    <script type="module" src="src/index.js"></script>
+    
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <!--     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div> -->
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
