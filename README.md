@@ -26,10 +26,14 @@ For detailed explanation on how things work, checkout the [Preact CLI Readme | G
 **Goals:** 
 Build an accessible, lightweight, offline-first, secure way to log & track your medications, mental health, & self-care routines.
 
-**Status Log:**
-7/8/2019 - Migrated away from Glitch and using CLI for more robust dev experience. Building locally on Windows. Updated documentation & pushed to GH.
+**Status Log**
+*7/8/2019* - Migrated away from Glitch and using CLI for more robust dev experience. Building locally on Windows. Updated documentation & pushed to GH.
+    For next time:
+    * [preact critical css for prerendered routes](https://github.com/matthewlynch/preact-cli-plugin-critical-css) 
+    * [preact-cli async plugin](https://github.com/developit/preact-cli-plugin-async)
+    * [stockroom](https://github.com/developit/stockroom) - unistore that allows decoupling of store from main client thread via service worker
 
-7/7/2019 - General architecture working. No build step, pure html/js/css. Components being composed together. Need to add state next, follow outline in index.html for designing screens/components. 
+*7/7/2019* - General architecture working. No build step, pure html/js/css. Components being composed together. Need to add state next, follow outline in index.html for designing screens/components. 
 
 ### Architecture
 - UI Styling Framework - [Spectre.css](https://picturepan2.github.io/spectre/index.html) (scss)
@@ -37,6 +41,7 @@ Build an accessible, lightweight, offline-first, secure way to log & track your 
   - Compiler - [Babel w/ async](https://babeljs.io/)
   - Component Library - [Preact](https://preactjs.com/)
   - Routing - [Preact Router](https://github.com/preactjs/preact-router)
+  - Store - [unistore](https://github.com/developit/unistore)
   - SSR - [Preact render-to-string](https://github.com/preactjs/preact-render-to-string)
   - JS Linting - [eslint](https://eslint.org/)
   - JS Testing - [Jest](https://jestjs.io/)
@@ -58,6 +63,9 @@ Build an accessible, lightweight, offline-first, secure way to log & track your 
   - [modern js (mjs) breakdown from preact author](https://jasonformat.com/enabling-modern-js-on-npm/)
     - Unsure what take is here. mjs isn't ready, really. Also doesn't give any real benefit outside of 'it doesn't need to compile', is that enough?
   - [Pika - alternative package manager](https://www.pika.dev/)
+- Much, much later, or maybe
+  - [preact slots](https://github.com/developit/preact-slots) 
+  - [preact + photon = desktop apps!](https://github.com/alexkrolick/preact-photon-electron-quick-start)
 
 
 ---
